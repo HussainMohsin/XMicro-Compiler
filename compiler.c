@@ -508,7 +508,7 @@ void syntax_error()
 //printing to the out file
 void printIt(){
 	
-    fout = fopen("output.txt","w"); //open the file to write in it
+    fout = fopen("OutputFile.txt","w"); //open the file to write in it
     next_token = scanner(); //check next token using scanner()
     
 
