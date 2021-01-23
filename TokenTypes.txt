@@ -1,0 +1,27 @@
+﻿Token                        Token Type
+1. Id                        ID
+2. integer literal        INTLITERAL
+3. Main                        MAIN
+4. Read                        READ
+5. Write                        WRITE
+6. If                         IF
+7. Else                        ELSE
+8. while                        WHILE
+9. Scan EOF                 SCANEOF
+10. +                        PLUSOP
+11. -                        MINUSOP
+12. *                        TIMESOP
+13. \                        DIVIDESOP
+14. :=                        ASSIGNOP
+15. (                        LPAREN
+16. )                        RPAREN
+17. {                        LBRACKET
+18. }                        RBRACKET
+19. >                        GREATERTHAN
+20. <                        LESSTHAN
+21. ==                        EQUALTO
+22. >=                        GREATEREQUALTO
+23. <=                        LESSEQUALTO
+24. !=                        NOTEQUALTO
+25. ,                        COMMA
+26. ;                        SEMICOLON

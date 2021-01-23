@@ -1,0 +1,28 @@
+﻿<program> --> main <l_brack>  <stmtlist> <r_brack>
+
+
+<stmtlist> --> <stmt> {<stmt>} 
+
+
+<stmt> --> id := <expr>;
+ <stmt> --> read( <idlist> );
+ <stmt> --> write( <idlist> );
+ <stmt> --> if( <booleanExp> ) <l_brack> <stmtlist> <r_brack> 
+else <l_brack> <stmtlist> <r_brack>
+ <stmt> --> if( <booleanExp> ) <l_brack> <stmtlist> <r_brack>
+ <stmt> --> while( <booleanExp> ) <l_brack> <stmtlist> <r_brack> 
+
+
+<idlist> --> id {,id}
+<l_brack> --> {
+<r_brack> --> }
+
+
+<expr> --> <term> {<adop> <term>} 
+<term> --> id | integer | (<expr>) 
+<adop> -->  + | - | * | /  
+
+
+<boolean_expr> --> <operand> <boolean_op> <operand>
+<operand> --> id | integer
+<boolean_op> --> != | > | < | >= | <= | ==

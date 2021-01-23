@@ -1,0 +1,5 @@
+main{
+	read(a); //comment
+	bb := a + 32;
+	
+}
