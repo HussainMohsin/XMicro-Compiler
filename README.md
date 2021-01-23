@@ -1,11 +1,12 @@
 # XMicro-Compiler
 Scanner and a Top Down Parser Compiler For A Small Scale Language Called XMicro
 
-## Option 1
+## Program Options
+### Option 1
 * The program asks the user for a source code file to scan and an output file to write the sequence of tokens to
 * If there are lexical errors then errors are printed to the screen
 
-## Option 2
+### Option 2
 * The program asks the user for the source code file to parse the source code
 * If there are no lexical errors and no syntax errors, a message indicating that parsing is successful is printed to the screen.
 * If there are lexical errors and syntax errors, error messages are printed to the screen.
